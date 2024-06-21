@@ -18,9 +18,40 @@ neural networks separately. Border can reach BPCER100 1.69%, and Source reached 
 
 This repo will be update upon acceptance
 
-# How to use?
- available soon
+# How to use
+1. Download (or build) the .whl aikit file
+2. Go to your project's virtual environment and install with pip:
 
+    `pip install aikit-21.10.1-py3-none-any.whl`
+
+    If you are using conda, first install pip inside your conda environment:
+
+    `conda install pip`
+
+    then install the .whl package
+
+3. Use inside your project as follows:
+
+    ` from aikit.metrics.iso_30107_3 import apcer `
+
+    `apcer(...)`
+
+## How to build the .whl file
+1. Install "build" inside your environment using pip
+
+    ` pip install build `   
+2. Then build the package:
+
+    ` python -m build `   
+3. The package will be available inside the `dist` folder
+
+## Notes
+* The following packages are included as dependencies and will be installed if not already present on your environment: `scipy
+    sklearn
+    matplotlib
+    seaborn
+    pandas`
+* Some other dependencies of aikit (such as tensorflow) where not included in the package and might need to be installed by hand
 
 # Cited
  available soon
