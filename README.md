@@ -24,7 +24,9 @@ The PyPAD toolkit has the following features:
 
 
 # Figure Examples 
- available soon
+
+![Captura de pantalla 2024-07-03 a la(s) 12 24 09](https://github.com/jedota/PyPAD/assets/45126159/0ca69ade-9adf-43fa-ad12-00389dddb00e)
+
 
 # Download
 
