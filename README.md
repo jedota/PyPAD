@@ -9,7 +9,19 @@ used, including bona fide and presentation attacks species such as printed, disp
 images. This proposal was developed using a database consisting of 190.000 real case images with the support of a third-party
 company. Also, a new framework called PyPAD used to estimate multi-class metrics compliant with the ISO/IEC 30107-3 standard
 was developed and will be made available for research purposes. Our method was trained on the source and border convolutional
-neural networks separately. Border can reach BPCER100 1.69%, and Source reached 2.36% BPCER100 on ID Cards attacks. A two-stage concatenate model attack using a border and source networks together can reach 0.92% of BPCER100
+neural networks separately. Border can reach BPCER100 1.69%, and Source reached 2.36% BPCER100 on ID Cards attacks. A two-stage concatenate model attack using a border and source networks together can reach 0.92% of BPCER100.
+
+#Features:
+
+The PyPAD toolkit has the following features:
+- It is fully compliant with ISO 30107-3 and configurable to choose and estimate results based on different thresholds.
+- It is able to calculate metrics for binary and multi-class PAD systems.
+- It can plot DET curves containing all the presentation attack species for comparison. The plot depicts the two operational points typically reported, BPCER10 and BPCER20, with values highlighted.
+- An EER plot is automatically created, which can help us understand the relation between BPCER, APCER, and system thresholds.
+- Kernel Distribution Estimation (KDE) plots are reported using a linear and a log scale to highlight details and thresholds.
+- Configurable confusion matrices for multi-class problems and different thresholds.
+- A summary report is automatically generated describing different operational points (BPCER, APCER). 
+
 
 # Figure Examples 
  available soon
