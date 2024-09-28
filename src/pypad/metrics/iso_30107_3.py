@@ -5,7 +5,7 @@ import logging
 import numpy as np
 from scipy.interpolate import interp1d
 
-logger = logging.getLogger("aikit.metrics.iso_30107_3")
+logger = logging.getLogger("pypad.metrics.iso_30107_3")
 
 
 def apcer_pais(attack_true, attack_scores, threshold=0.5, percentage=False):
@@ -129,7 +129,7 @@ def apcer_ap_deprecated(
         - BPCER at AP=0.01% may be reported as APCER10000
 
     To compute the required APCER, BPCER and threshold points, please see
-    aikit.metrics.det_curve.det_curve().
+    pypad.metrics.det_curve.det_curve().
 
     Parameters
     ----------
@@ -239,7 +239,7 @@ def bpcer_ap_deprecated(
         - APCER at AP=0.01% may be reported as BPCER10000
 
     To compute the required APCER, BPCER and threshold points, please see
-    aikit.metrics.det_curve.det_curve().
+    pypad.metrics.det_curve.det_curve().
 
     Parameters
     ----------

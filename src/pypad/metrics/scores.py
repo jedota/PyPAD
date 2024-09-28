@@ -2,9 +2,9 @@ import logging
 
 import numpy as np
 
-from aikit.metrics.iso_30107_3 import apcer_pais
+from pypad.metrics.iso_30107_3 import apcer_pais
 
-logger = logging.getLogger("aikit.metrics.scores")
+logger = logging.getLogger("pypad.metrics.scores")
 
 
 def split_scores(y_true, y_score, bonafide_label=1):

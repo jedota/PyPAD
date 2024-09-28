@@ -5,12 +5,12 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-from aikit.metrics.det_curve import det_curve
-from aikit.metrics.iso_30107_3 import bpcer_ap
-from aikit.graphics.aesthetics import set_colour_theme
+from pypad.metrics.det_curve import det_curve
+from pypad.metrics.iso_30107_3 import bpcer_ap
+from pypad.graphics.aesthetics import set_colour_theme
 
 sns.set(style="darkgrid")
-logger = logging.getLogger("aikit.graphics.erc_plot")
+logger = logging.getLogger("pypad.graphics.erc_plot")
 
 
 class ERCPlot:

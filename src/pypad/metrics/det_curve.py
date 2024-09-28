@@ -4,7 +4,7 @@ import numpy as np
 from scipy.interpolate import interp1d
 from sklearn.metrics import roc_curve
 
-logger = logging.getLogger("aikit.metrics.det_curve")
+logger = logging.getLogger("pypad.metrics.det_curve")
 
 
 def det_curve(

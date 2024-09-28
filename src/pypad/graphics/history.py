@@ -6,9 +6,9 @@ import seaborn as sns
 from packaging import version
 from tensorflow import __version__ as tfver
 
-from aikit.graphics.aesthetics import set_colour_theme
+from pypad.graphics.aesthetics import set_colour_theme
 
-logger = logging.getLogger("aikit.graphics.history")
+logger = logging.getLogger("pypad.graphics.history")
 
 
 def plot_history(

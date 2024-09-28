@@ -6,9 +6,9 @@ import pandas as pd
 import seaborn as sns
 from sklearn.metrics import roc_curve
 
-from aikit.graphics.aesthetics import set_colour_theme
+from pypad.graphics.aesthetics import set_colour_theme
 
-logger = logging.getLogger("aikit.graphics.roc_curve")
+logger = logging.getLogger("pypad.graphics.roc_curve")
 
 
 class ROCCurve:
@@ -99,7 +99,7 @@ class ROCCurve:
         ----------
         colour_theme : str, optional
             Plot colour mode, must be a valid entry from
-            aikit.graphics.aesthetics.set_colour_mode(). None or invalid values will
+            pypad.graphics.aesthetics.set_colour_mode(). None or invalid values will
             load the default "paper" colour mode
 
         Returns

@@ -6,9 +6,9 @@ import pandas as pd
 import seaborn as sns
 from sklearn.metrics import confusion_matrix as sk_confusion_matrix
 
-from aikit.graphics.aesthetics import set_colour_theme
+from pypad.graphics.aesthetics import set_colour_theme
 
-logger = logging.getLogger("aikit.graphics.confusion_matrix")
+logger = logging.getLogger("pypad.graphics.confusion_matrix")
 
 
 def plot_confusion_matrix(
@@ -58,7 +58,7 @@ def plot_confusion_matrix(
         [description], by default True
     colour_theme : str, optional
         Plot colour style, must be a valid entry from
-        aikit.graphics.aesthetics.set_colour_theme(). None or invalid values will load
+        pypad.graphics.aesthetics.set_colour_theme(). None or invalid values will load
         the default "light" colour mode. By default "paper"
     cmap : [type], optional
         [description], by default None
@@ -141,7 +141,7 @@ def plot_system_confusion_matrix(
         [description], by default True
     colour_theme : str, optional
         Plot colour style, must be a valid entry from
-        aikit.graphics.aesthetics.set_colour_theme(). None or invalid values will load
+        pypad.graphics.aesthetics.set_colour_theme(). None or invalid values will load
         the default "light" colour mode. By default "paper"
     cmap : [type], optional
         [description], by default None

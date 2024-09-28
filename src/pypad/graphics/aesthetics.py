@@ -1,6 +1,6 @@
 import logging
 
-logger = logging.getLogger("aikit.graphics.aesthetics")
+logger = logging.getLogger("pypad.graphics.aesthetics")
 
 
 def set_colour_theme(theme="light"):

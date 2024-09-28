@@ -6,11 +6,11 @@ import pandas as pd
 import seaborn as sns
 from scipy.stats import norm
 
-from aikit.metrics.det_curve import det_curve, eer
-from aikit.graphics.aesthetics import set_colour_theme
+from pypad.metrics.det_curve import det_curve, eer
+from pypad.graphics.aesthetics import set_colour_theme
 
 sns.set(style="darkgrid")
-logger = logging.getLogger("aikit.graphics.det_plot")
+logger = logging.getLogger("pypad.graphics.det_plot")
 
 
 class DETPlot:
@@ -184,7 +184,7 @@ class DETPlot:
         ----------
         colour_theme : str, optional
             Plot colour mode, must be a valid entry from
-            aikit.graphics.aesthetics.set_colour_mode(). None or invalid values will
+            pypad.graphics.aesthetics.set_colour_mode(). None or invalid values will
             load the default "paper" colour mode
 
         Returns
@@ -248,7 +248,7 @@ class DETPlot:
             hue="system",
             style="system",
             palette=palette,
-            ci=None,
+            errorbar=None,
             ax=ax,
         )
 

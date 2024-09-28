@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-# from aikit.evaluation.scores import pad_scores, split_scores
-from aikit.graphics.aesthetics import set_colour_theme
+# from pypad.evaluation.scores import pad_scores, split_scores
+from pypad.graphics.aesthetics import set_colour_theme
 
 sns.set(style="darkgrid")
-logger = logging.getLogger("aikit.graphics.biometric_performance")
+logger = logging.getLogger("pypad.graphics.biometric_performance")
 
 
 def performance_evaluation(
