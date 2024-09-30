@@ -52,17 +52,8 @@ The PyPAD toolkit has the following features:
 
 
 ## Cited (in revision process)
-'''
- @misc{gonzalez2023improvingpresentationattackdetection,
-      title={Improving Presentation Attack Detection for ID Cards on Remote Verification Systems}, 
-      author={Sebastian Gonzalez and Juan Tapia},
-      year={2023},
-      eprint={2301.09542},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2301.09542}, 
-}
-'''
+
+Arxiv Version: https://arxiv.org/abs/2301.09542
 
 ## License
 
