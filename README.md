@@ -51,10 +51,18 @@ The PyPAD toolkit has the following features:
 * The following packages are included as dependencies and will be installed if not already present on your environment: `scipy`, `sklearn`, `matplotlib`, `seaborn`, and `pandas`.
 
 
-## Cited
-
- Available soon.
-
+## Cited (in revision process)
+'''
+ @misc{gonzalez2023improvingpresentationattackdetection,
+      title={Improving Presentation Attack Detection for ID Cards on Remote Verification Systems}, 
+      author={Sebastian Gonzalez and Juan Tapia},
+      year={2023},
+      eprint={2301.09542},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2301.09542}, 
+}
+'''
 
 ## License
 
