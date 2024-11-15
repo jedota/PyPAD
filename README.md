@@ -34,7 +34,7 @@ The PyPAD toolkit has the following features:
 # Option 1:
 1. Download or build (see instructions below) the .whl PyPAD file (pip install -e PyPAD)
 
-## Option 2:
+# Option 2:
    
 3. Go to your project's virtual environment and install with pip: `pip install pypad-23.10.1-py3-none-any.whl`
     - If you are using conda, first install pip inside your conda environment: `conda install pip`, then install the .whl package
