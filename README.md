@@ -31,11 +31,14 @@ The PyPAD toolkit has the following features:
 
 
 ## How to use
-
+# Option 1:
 1. Download or build (see instructions below) the .whl PyPAD file (pip install -e PyPAD)
-2. Go to your project's virtual environment and install with pip: `pip install pypad-23.10.1-py3-none-any.whl`
+
+## Option 2:
+   
+3. Go to your project's virtual environment and install with pip: `pip install pypad-23.10.1-py3-none-any.whl`
     - If you are using conda, first install pip inside your conda environment: `conda install pip`, then install the .whl package
-3. Use inside your project as follows: `from pypad.metrics.iso_30107_3 import apcer`, and call the function as `apcer(...)`
+4. Use inside your project as follows: `from pypad.metrics.iso_30107_3 import apcer`, and call the function as `apcer(...)`
 
 
 ### How to build the .whl file:
