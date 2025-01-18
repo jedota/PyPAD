@@ -55,7 +55,7 @@ The PyPAD toolkit has the following features:
 
 
 ## Cite
-'''
+```
 Title = {Forged presentation attack detection for ID cards on remote verification systems},
 journal = {Pattern Recognition},
 pages = {111352},
@@ -65,7 +65,7 @@ doi = {https://doi.org/10.1016/j.patcog.2025.111352},
 url = {https://www.sciencedirect.com/science/article/pii/S0031320325000123},
 author = {Sebastian Gonzalez and Juan E. Tapia},
 }
-'''
+```
 
 ## License
 
