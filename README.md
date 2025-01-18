@@ -1,6 +1,6 @@
 # PyPAD
 
-This repository make availble the PyPAD toolkit for evaluated a Preseetation Attack Detection for ID Cards based on the paper: "Improving Presentation Attack Detection for ID-Cards on Remote Verification System" Sebastian Gonzalez and Juan Tapia (Under revision)
+This repository makes available the PyPAD toolkit for evaluating a Preseetation Attack Detection for ID Cards based on the paper: "" Sebastian Gonzalez and Juan E. Tapia.
 
 
 ## Abstract
