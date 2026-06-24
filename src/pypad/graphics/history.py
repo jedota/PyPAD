@@ -4,11 +4,16 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from packaging import version
-from tensorflow import __version__ as tfver
 
 from pypad.graphics.aesthetics import set_colour_theme
 
 logger = logging.getLogger("pypad.graphics.history")
+
+try:
+    from tensorflow import __version__ as tfver
+except:
+    logger.warning("Tensorflow not installed, assuimg version 2.0.0")
+    tfver = "2.0.0"
 
 
 def plot_history(
