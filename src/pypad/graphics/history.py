@@ -12,7 +12,6 @@ logger = logging.getLogger("pypad.graphics.history")
 try:
     from tensorflow import __version__ as tfver
 except:
-    logger.warning("Tensorflow not installed, assuimg version 2.0.0")
     tfver = "2.0.0"
 
 
