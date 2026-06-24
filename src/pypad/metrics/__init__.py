@@ -7,7 +7,7 @@ from .iso_30107_3 import (
     apcer_pais,
     bpcer,
     bpcer_ap,
-    ffr,
+    frr,
     iapar,
     riapar,
 )
@@ -28,7 +28,7 @@ __all__ = [
     "bpcer",
     "bpcer_ap",
     "iapar",
-    "ffr",
+    "frr",
     "riapar",
     "acer",
     
