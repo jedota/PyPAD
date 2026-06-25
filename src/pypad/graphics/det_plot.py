@@ -95,6 +95,7 @@ class DETPlot:
         self.xticklabels = tick_labels
         self.yticklabels = tick_labels
         self.systems = {}
+        self.step_sampling = 0.000005
 
     def set_system(
         self, attack_scores, bonafide_scores, drop_intermediate=False, label=None
@@ -118,7 +119,7 @@ class DETPlot:
             label = f"System {len(self.systems) + 1}"
 
         fpr, fnr, thresholds = det_curve(
-            attack_scores, bonafide_scores, drop_intermediate=drop_intermediate
+            attack_scores, bonafide_scores, drop_intermediate=drop_intermediate, step_sampling=self.step_sampling,
         )
         eer_, eer_thres = eer(fpr, fnr, thresholds, percentage=True)
 
